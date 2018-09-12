@@ -3,7 +3,7 @@
     "description": "sinus",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "SINUS",
@@ -11,18 +11,11 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0",
-        "bower-asset/bootstrap": "^4.1.0"
+        "yiisoft/yii2": "~2.0.0"
     },
     "autoload": {
         "psr-4": {
-            "yii\\sinus\\": "src"
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "yii\\sinus\\": ""
         }
     }
 }
