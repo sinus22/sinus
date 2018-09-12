@@ -26,12 +26,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "yii\\sinus\\": ""
+            "yii\\sinus\\": "src"
         }
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "1.0-dev"
         }
     }
 }
