@@ -1,5 +1,5 @@
 {
-    "name": "sinus/yii2-sinus",
+    "name": "sinus/yii2-sinus-bootstrap4",
     "description": "sinus",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
@@ -16,12 +16,12 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/sinus22/sinus.git"
+            "url": "https://github.com/sinus22/sinus-bootstrap4.git"
         }
     ],
     "autoload": {
         "psr-4": {
-            "yii\\sinus\\": "src"
+            "sinus\\bootstrap4\\": "src"
         }
     },
     "extra": {
